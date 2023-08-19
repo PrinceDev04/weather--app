@@ -1,0 +1,43 @@
+
+
+.weatherResult__div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.weather__row {
+    background: linear-gradient(130deg, rgb(86, 86, 235), rgb(5, 5, 199));
+    width: 380px;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 50%;
+}
+
+.wind {
+    display: flex;
+    font-size: 12px;
+}
+
+.weather__header {
+    margin-right: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 8px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
